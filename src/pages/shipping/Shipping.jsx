@@ -1,20 +1,22 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 export const Shipping = () => {
+  const navigate = useNavigate();
 
-    const [alt, setAlt] = useState(false)
-    const [hide, setHide] = useState(true)
-    const toggle = () => {
-        setAlt(true)
-        setHide(false)
-    }
-    const [landmark, setLandmark] = useState(false)
-    const [hide1, setHide1] = useState(true)
-    const toggle1 = () => {
-        setLandmark(true)
-        setHide1(false)
-    }
-    
+  const [alt, setAlt] = useState(false);
+  const [hide, setHide] = useState(true);
+  const toggle = () => {
+    setAlt(true);
+    setHide(false);
+  };
+  const [landmark, setLandmark] = useState(false);
+  const [hide1, setHide1] = useState(true);
+  const toggle1 = () => {
+    setLandmark(true);
+    setHide1(false);
+  };
+
   return (
     <div>
       <div className="flex flex-col">
@@ -95,7 +97,10 @@ export const Shipping = () => {
             />
           )}
         </form>
-        <button className="mx-auto text-xl border px-2 py-1 rounded-lg mt-10 text-white bg-[#0f7bd4]">
+        <button
+          className="mx-auto text-xl border px-2 py-1 rounded-lg mt-10 text-white bg-[#0f7bd4]"
+          onClick={() => navigate("/Orderplaced")}
+        >
           Place Order
         </button>
       </div>
