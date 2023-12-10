@@ -8,13 +8,13 @@
       "type": "image/x-icon"
     },
     {
-      "src": "ShopIT.ico",
-      "type": "image/ico",
+      "src": "ShopIT.jpg",
+      "type": "image/jpg",
       "sizes": "192x192"
     },
     {
-      "src": "ShopIT.ico",
-      "type": "image/ico",
+      "src": "ShopIT.jpg",
+      "type": "image/jpg",
       "sizes": "512x512"
     }
   ],
