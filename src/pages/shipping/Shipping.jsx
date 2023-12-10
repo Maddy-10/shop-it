@@ -30,7 +30,7 @@ export const Shipping = () => {
             placeholder="  Full Name  (Required) *  "
           />
           <input
-            type="text"
+            type="number"
             className="border px-2 py-1 text-sm  mt-3 rounded-md"
             placeholder="  Phone Number  (Required) *  "
           />
@@ -44,14 +44,14 @@ export const Shipping = () => {
           )}
           {alt && (
             <input
-              type="text"
+              type="number"
               className="border px-2 py-1 mt-3 text-sm  rounded-md"
               placeholder="  Alternate Phone Number  "
             />
           )}
           <div className="grid grid-cols-2 gap-5">
             <input
-              type="text"
+              type="number"
               className="border px-2 py-1 mt-3 text-sm  rounded-md"
               placeholder="  Pincode  (Required) *  "
             />
