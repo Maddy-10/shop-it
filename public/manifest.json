@@ -1,0 +1,25 @@
+{
+  "short_name": "Shop IT",
+  "name": "Shop IT",
+  "icons": [
+    {
+      "src": "ShopIT.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "ShopIT.ico",
+      "type": "image/ico",
+      "sizes": "192x192"
+    },
+    {
+      "src": "ShopIT.ico",
+      "type": "image/ico",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#1690e0"
+}
